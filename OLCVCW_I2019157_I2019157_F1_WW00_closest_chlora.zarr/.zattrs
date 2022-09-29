@@ -1,0 +1,78 @@
+{
+    "Conventions": "CF-1.4",
+    "OBSERVED_PROPERTY": "chlor_a",
+    "cdm_data_type": "Grid",
+    "cw:cwhdf_version": "3.1",
+    "cw:et_affine": [
+        0.0,
+        -0.037500000000000006,
+        0.0375,
+        0.0,
+        -179.98125000000002,
+        89.75625000000001
+    ],
+    "cw:gctp_datum": 12,
+    "cw:gctp_parm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "cw:gctp_sys": 0,
+    "cw:gctp_zone": 62,
+    "cw:orbit_type": "descending\ndescending\ndescending",
+    "cw:pass_date": [
+        18053,
+        18053,
+        18053
+    ],
+    "cw:pass_type": "day\nday\nday",
+    "cw:processing_version": "NRT S3A_OL_2_WFR\nNRT S3A_OL_2_WFR\nNRT S3A_OL_2_WFR",
+    "cw:projection": "Geographic",
+    "cw:satellite": "Sentinel-3A\nSentinel-3A\nSentinel-3A",
+    "cw:sensor": "OLCI\nOLCI\nOLCI",
+    "cw:start_time": [
+        19505.0,
+        19685.0,
+        19865.0
+    ],
+    "cw:station_code": "MAR\nMAR\nMAR",
+    "cw:station_name": "European Organisation for the Exploitation of Meteorological Satellites\nEuropean Organisation for the Exploitation of Meteorological Satellites\nEuropean Organisation for the Exploitation of Meteorological Satellites",
+    "cw:swath_sync_lines": [
+        1,
+        1,
+        1
+    ],
+    "cw:temporal_extent": [
+        180.0,
+        180.0,
+        180.0
+    ],
+    "geospatial_lat_max": 89.75625000000001,
+    "geospatial_lat_min": -89.75625000000002,
+    "geospatial_lat_units": "degrees_north",
+    "geospatial_lon_max": 179.98124999999996,
+    "geospatial_lon_min": -179.98125000000002,
+    "geospatial_lon_units": "degrees_east",
+    "geospatial_vertical_max": 0.0,
+    "geospatial_vertical_min": 0.0,
+    "geospatial_vertical_positive": "up",
+    "geospatial_vertical_units": "m",
+    "history": "[Sentinel-SAFE] S3A_OL_2_WFR____20190606T052506_20190606T052806_20190606T073612_0179_045_276_2160_MAR_O_NR_002.SEN3.tar size=114800640\nNRT S3A_OL_2_WFR\n/home/pub/msoracco/aps/aps/aps/share/coastwatch/bin/netcdf_cf_ingest /home/pub/msoracco/aps/aps_x/aps/work/geo_coordinates.nc /home/pub/msoracco/aps/aps_x/aps/work/OLCVCW.I2019157.052505.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath -s float --units=mg m^-3 --expr=chlor_a=10^CHL_OC4ME /home/pub/msoracco/aps/aps_x/aps/work/XFORM.hdf /home/pub/msoracco/aps/aps_x/aps/work/OLCVCW.I2019157.052505.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath -s float --units=m^-1 --expr=Kd_490=10^KD490_M07 /home/pub/msoracco/aps/aps_x/aps/work/XFORM.hdf /home/pub/msoracco/aps/aps_x/aps/work/OLCVCW.I2019157.052505.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath -s float --units=g m^-3 --expr=tsm_nn=10^TSM_NN /home/pub/msoracco/aps/aps_x/aps/work/XFORM.hdf /home/pub/msoracco/aps/aps_x/aps/work/OLCVCW.I2019157.052505.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath --template Rrs_709 --expr nflh=(-0.371429*140.538600*Rrs_709)+(-0.628571*153.075900*Rrs_665)+(1.000000*147.023800*Rrs_681) --longname Normalized Fluorescence Line Height --units mW cm^-2 um^-1 --scale 0.00001/0.0 /home/pub/msoracco/aps/aps_x/aps/work/OLCVCW.I2019157.052505.hdf\n[cwf 3.3.2.205 20160324_143148] cwregister --method=mixed --rectsize=49/49 North250MI3045Geographic.hdf OLCVCW.I2019157.052505.hdf OLCVCW.I2019157.052505.MI00.mapped00.hdf\n/home/pub/msoracco/aps/aps/aps/share/coastwatch/bin/cwfReassemble -j North250MI3045Geographic.hdf OLCVCW.I2019157.052505.MI00.closest.hdf OLCVCW.I2019157.052505.MI00.mapped00.hdf OLCVCW.I2019157.052505.MI00.mapped01.hdf\n[cwf 3.3.2.205 20160324_143148] cwgraphics OLCVCW.I2019157.052505.MI00.closest.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath --template graphics --expr commonmask=(((and(wqsf0,4098)==2)&&(and(wqsf1,4)==0))||((and(wqsf0,4136)==32)&&(and(wqsf1,4)==0))) /home/pub/msoracco/aps/aps_x/browse/lvl3/olci/coastwatch/hdf/OLCVCW_I2019157_052505_MI00_closest_masked.hdf\n[Sentinel-SAFE] S3A_OL_2_WFR____20190606T052806_20190606T053106_20190606T074146_0179_045_276_2340_MAR_O_NR_002.SEN3.tar size=121681920\nNRT S3A_OL_2_WFR\n/home/pub/msoracco/aps/aps/aps/share/coastwatch/bin/netcdf_cf_ingest /home/pub/msoracco/aps/aps_r/aps/work/geo_coordinates.nc /home/pub/msoracco/aps/aps_r/aps/work/OLCVCW.I2019157.052805.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath -s float --units=mg m^-3 --expr=chlor_a=10^CHL_OC4ME /home/pub/msoracco/aps/aps_r/aps/work/XFORM.hdf /home/pub/msoracco/aps/aps_r/aps/work/OLCVCW.I2019157.052805.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath -s float --units=m^-1 --expr=Kd_490=10^KD490_M07 /home/pub/msoracco/aps/aps_r/aps/work/XFORM.hdf /home/pub/msoracco/aps/aps_r/aps/work/OLCVCW.I2019157.052805.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath -s float --units=g m^-3 --expr=tsm_nn=10^TSM_NN /home/pub/msoracco/aps/aps_r/aps/work/XFORM.hdf /home/pub/msoracco/aps/aps_r/aps/work/OLCVCW.I2019157.052805.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath --template Rrs_709 --expr nflh=(-0.371429*140.538600*Rrs_709)+(-0.628571*153.075900*Rrs_665)+(1.000000*147.023800*Rrs_681) --longname Normalized Fluorescence Line Height --units mW cm^-2 um^-1 --scale 0.00001/0.0 /home/pub/msoracco/aps/aps_r/aps/work/OLCVCW.I2019157.052805.hdf\n[cwf 3.3.2.205 20160324_143148] cwregister --method=mixed --rectsize=49/49 North250MI3045Geographic.hdf OLCVCW.I2019157.052805.hdf OLCVCW.I2019157.052805.MI00.mapped00.hdf\n/home/pub/msoracco/aps/aps/aps/share/coastwatch/bin/cwfReassemble -j North250MI3045Geographic.hdf OLCVCW.I2019157.052805.MI00.closest.hdf OLCVCW.I2019157.052805.MI00.mapped00.hdf OLCVCW.I2019157.052805.MI00.mapped01.hdf\n[cwf 3.3.2.205 20160324_143148] cwgraphics OLCVCW.I2019157.052805.MI00.closest.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath --template graphics --expr commonmask=(((and(wqsf0,4098)==2)&&(and(wqsf1,4)==0))||((and(wqsf0,4136)==32)&&(and(wqsf1,4)==0))) /home/pub/msoracco/aps/aps_r/browse/lvl3/olci/coastwatch/hdf/OLCVCW_I2019157_052805_MI00_closest_masked.hdf\n[Sentinel-SAFE] S3A_OL_2_WFR____20190606T053106_20190606T053406_20190606T074553_0179_045_276_2520_MAR_O_NR_002.SEN3.tar size=295065600\nNRT S3A_OL_2_WFR\n/home/pub/msoracco/aps/aps/aps/share/coastwatch/bin/netcdf_cf_ingest /home/pub/msoracco/aps/aps_n/aps/work/geo_coordinates.nc /home/pub/msoracco/aps/aps_n/aps/work/OLCVCW.I2019157.053105.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath -s float --units=mg m^-3 --expr=chlor_a=10^CHL_OC4ME /home/pub/msoracco/aps/aps_n/aps/work/XFORM.hdf /home/pub/msoracco/aps/aps_n/aps/work/OLCVCW.I2019157.053105.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath -s float --units=m^-1 --expr=Kd_490=10^KD490_M07 /home/pub/msoracco/aps/aps_n/aps/work/XFORM.hdf /home/pub/msoracco/aps/aps_n/aps/work/OLCVCW.I2019157.053105.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath -s float --units=g m^-3 --expr=tsm_nn=10^TSM_NN /home/pub/msoracco/aps/aps_n/aps/work/XFORM.hdf /home/pub/msoracco/aps/aps_n/aps/work/OLCVCW.I2019157.053105.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath --template Rrs_709 --expr nflh=(-0.371429*140.538600*Rrs_709)+(-0.628571*153.075900*Rrs_665)+(1.000000*147.023800*Rrs_681) --longname Normalized Fluorescence Line Height --units mW cm^-2 um^-1 --scale 0.00001/0.0 /home/pub/msoracco/aps/aps_n/aps/work/OLCVCW.I2019157.053105.hdf\n[cwf 3.3.2.205 20160324_143148] cwregister --method=mixed --rectsize=49/49 North250MI3045Geographic.hdf OLCVCW.I2019157.053105.hdf OLCVCW.I2019157.053105.MI00.mapped00.hdf\n/home/pub/msoracco/aps/aps/aps/share/coastwatch/bin/cwfReassemble -j North250MI3045Geographic.hdf OLCVCW.I2019157.053105.MI00.closest.hdf OLCVCW.I2019157.053105.MI00.mapped00.hdf OLCVCW.I2019157.053105.MI00.mapped01.hdf\n[cwf 3.3.2.205 20160324_143148] cwgraphics OLCVCW.I2019157.053105.MI00.closest.hdf\n[cwf 3.3.2.205 20160324_143148] cwmath --template graphics --expr commonmask=(((and(wqsf0,4098)==2)&&(and(wqsf1,4)==0))||((and(wqsf0,4136)==32)&&(and(wqsf1,4)==0))) /home/pub/msoracco/aps/aps_n/browse/lvl3/olci/coastwatch/hdf/OLCVCW_I2019157_053105_MI00_closest_masked.hdf\n[cwf 3.3.2.205 20160324_143148] cwcomposite --pedantic --method explicit --inputs - --match ^(longitude|latitude|chlor_a)$ /home/pub/msoracco/aps/aps_o/browse/lvl4/modis/coastwatch/hdf/OLCVCW_I2019157_C3_052505_052805_053105_MI00_closest_chlora.hdf\n[cwf 3.3.2.205 20160324_143148] cwgraphics /home/pub/msoracco/aps/aps_o/browse/lvl4/modis/coastwatch/hdf/OLCVCW_I2019157_C3_052505_052805_053105_MI00_closest_chlora.hdf\n[cwf 3.3.2.205 20160324_143148] cwimport --match=^graphics$ --copy /home/pub/msoracco/aps/aps/aps/share/coastwatch/icons/North750YY0045Geographic.hdf /home/pub/msoracco/aps/aps_s/browse/lvl4/modis/coastwatch/maskhdf/OLCVCW_I2019157_I2019157_F1_YY00_closest_chlora.hdf\n[cwf 3.3.2.205 20160324_143148] cwimport --match=^graphics$ --copy /home/pub/msoracco/aps/aps/aps/share/coastwatch/icons/GlobalFourKmGeographic.hdf /home/pub/msoracco/aps/aps_t/browse/lvl4/modis/coastwatch/maskhdf/OLCVCW_I2019157_I2019157_F1_WW00_closest_chlora.hdf",
+    "institution": "Copernicus Program (modified by NOAA CoastWatch)",
+    "source": "Sentinel-3A_OLCI_chlora",
+    "time_coverage_end": "2019-06-06T05:34:05Z",
+    "time_coverage_start": "2019-06-06T05:25:05Z",
+    "title": "Geometric Mean Baseline of chlora from Sentinel-3A OLCI"
+}

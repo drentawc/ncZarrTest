@@ -1,0 +1,7 @@
+{
+    "_ARRAY_DIMENSIONS": [],
+    "grid_mapping_name": "latitude_longitude",
+    "inverse_flattening": 298.257223563,
+    "longitude_of_prime_meridian": 0.0,
+    "semi_major_axis": 6378137.0
+}
