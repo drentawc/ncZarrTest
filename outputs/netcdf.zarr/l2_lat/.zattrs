@@ -1,0 +1,14 @@
+{
+    "C_format": "%.4g",
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "altitude",
+        "latitude",
+        "longitude"
+    ],
+    "add_offset": 0.0,
+    "long_name": "Latitude from L2 files",
+    "scale_factor": 1.0,
+    "standard_name": "latitude",
+    "units": "degree_north"
+}

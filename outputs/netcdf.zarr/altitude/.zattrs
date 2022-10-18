@@ -1,0 +1,18 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "altitude"
+    ],
+    "_CoordinateAxisType": "Height",
+    "_CoordinateZisPositive": "up",
+    "actual_range": [
+        0.0,
+        0.0
+    ],
+    "axis": "Z",
+    "coverage_content_type": "coordinate",
+    "ioos_category": "Location",
+    "long_name": "Altitude",
+    "positive": "up",
+    "standard_name": "altitude",
+    "units": "m"
+}

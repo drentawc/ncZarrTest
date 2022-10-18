@@ -1,0 +1,1 @@
+{"_FillValue": 0, "missing_value": 0, "long_name": "graphics overlay planes", "cw:fraction_digits": 0, "grid_mapping": "coord_ref", "_ARRAY_DIMENSIONS": ["time_baseline","altitude","rows","cols"], "_NCZARR_ATTR": {"types": {"_FillValue": "<i1", "missing_value": "<i1", "long_name": "<U1", "cw:fraction_digits": "<i4", "grid_mapping": "<U1"}}}

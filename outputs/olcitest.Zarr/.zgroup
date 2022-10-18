@@ -1,0 +1,1 @@
+{"zarr_format": 2, "_NCZARR_SUPERBLOCK": {"version": "2.0.0"}, "_NCZARR_GROUP": {"dims": {"rows": 4788, "cols": 9600, "altitude": 1, "time_baseline": 1, "pair": 2}, "vars": ["time_baseline","altitude","rows","cols","baseline_bounds","coord_ref","chlor_a","graphics"], "groups": []}}

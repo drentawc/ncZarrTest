@@ -1,0 +1,10 @@
+{
+    "source": {
+        "array_name": "/time",
+        "uri": "/Users/will/Documents/GitHub/ncZarrTest/inputs/V2022003_a1_WW00_chlora.nc"
+    },
+    "time/0": {
+        "offset": 14689,
+        "size": 8
+    }
+}

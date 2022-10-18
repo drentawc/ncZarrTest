@@ -1,0 +1,14 @@
+{
+    "NAME": "time",
+    "_ARRAY_DIMENSIONS": [
+        "time"
+    ],
+    "_CoordinateAxisType": "Time",
+    "_Netcdf4Dimid": 4,
+    "axis": "T",
+    "calendar": "gregorian",
+    "ioos_category": "Time",
+    "long_name": "Time",
+    "standard_name": "time",
+    "units": "seconds since 1970-01-01 00:00:00Z"
+}

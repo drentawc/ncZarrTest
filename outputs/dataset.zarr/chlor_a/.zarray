@@ -1,0 +1,1 @@
+{"zarr_format": 2, "shape": [1,1,2160,4320], "dtype": "<f4", "chunks": [1,1,1080,2160], "fill_value": -999, "order": "C", "compressor": null, "filters": null, "_NCZARR_ARRAY": {"dimrefs": ["/time","/altitude","/lat","/lon"], "storage": "chunked"}}

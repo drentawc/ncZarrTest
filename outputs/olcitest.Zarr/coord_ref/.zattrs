@@ -1,0 +1,1 @@
+{"grid_mapping_name": "latitude_longitude", "semi_major_axis": 6.37814e+06, "inverse_flattening": 298.257, "longitude_of_prime_meridian": 0, "_ARRAY_DIMENSIONS": [], "_NCZARR_ATTR": {"types": {"grid_mapping_name": "<U1", "semi_major_axis": "<f8", "inverse_flattening": "<f8", "longitude_of_prime_meridian": "<f8"}}}

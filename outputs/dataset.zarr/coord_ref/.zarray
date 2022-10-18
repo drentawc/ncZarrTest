@@ -1,0 +1,1 @@
+{"zarr_format": 2, "shape": [1], "dtype": "<i4", "chunks": [1], "fill_value": -2147483647, "order": "C", "compressor": null, "filters": null, "_NCZARR_ARRAY": {"dimrefs": [], "storage": "scalar"}}

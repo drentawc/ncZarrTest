@@ -1,0 +1,10 @@
+{
+    "altitude/0": {
+        "offset": 17088,
+        "size": 8
+    },
+    "source": {
+        "array_name": "/altitude",
+        "uri": "/Users/will/Documents/GitHub/ncZarrTest/inputs/V2022003_a1_WW00_chlora.nc"
+    }
+}

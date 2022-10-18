@@ -1,0 +1,12 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time_baseline",
+        "altitude",
+        "rows",
+        "cols"
+    ],
+    "cw:fraction_digits": 0,
+    "grid_mapping": "coord_ref",
+    "long_name": "graphics overlay planes",
+    "missing_value": 0
+}

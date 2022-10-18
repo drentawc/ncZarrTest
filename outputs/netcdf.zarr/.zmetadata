@@ -1,0 +1,456 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "Conventions": "CF-1.6, ACDD-1.3",
+            "Input Files": "/data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T004551_20220927T013911_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T013559_20220927T022913_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T022556_20220927T031915_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T031604_20220927T040917_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T040602_20220927T045920_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T045608_20220927T054922_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T054604_20220927T063925_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T063613_20220927T072927_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T072609_20220927T081928_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T081616_20220927T090931_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T090614_20220927T095933_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T095622_20220927T104936_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T104619_20220927T113938_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T113627_20220927T122941_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T122624_20220927T131943_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T131632_20220927T140945_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T140628_20220927T145948_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T145637_20220927T154949_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T154631_20220927T163952_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T163639_20220927T172954_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T172637_20220927T181956_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T181644_20220927T190959_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T190641_20220927T200001_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T195650_20220927T205004_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T204647_20220927T214005_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T213653_20220927T223007_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T222649_20220927T232010_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T231658_20220928T001012_700_001_1.nc; /data/socd5/sss/repository/SMOS/ESA_restricted/nc/L2/2022/09/27/SM_OPER_MIR_OSUDP2_20220927T231658_20220928T001012_700_001_1.nc",
+            "Summary": "CoastWatch/OceanWatch Level-3 SSS products are generated directly from the ESA MIRAS SMOS Level-2 swath NetCDF files (currently V6.62; see release \"https://earth.esa.int/documents/10174/1854503/SMOS-Level-2-Ocean-Salinity-v662-release-note\" ). There are two SSS variables in V6.62 L2 NetCDF files, SSS_corr (corrected for land-sea contamination) and SSS_uncorr. The CoastWatch L3 product ingests the SSS_corr  with values between 25 - 40 PSS. These products improve the application of satellite SSS products in NOAA by minimizing the data latency to within 24 hours of Level-2 data availability.",
+            "cdm_data_type": "Grid",
+            "creator_email": "coastwatch.info@noaa.gov",
+            "creator_name": "NOAA CoastWatch",
+            "creator_url": "http://coastwatch.noaa.gov",
+            "geospatial_lat_max": 89.875,
+            "geospatial_lat_min": -89.875,
+            "geospatial_lat_resolution": 0.25,
+            "geospatial_lat_units": "degree_north",
+            "geospatial_lon_max": 179.875,
+            "geospatial_lon_min": -179.875,
+            "geospatial_lon_resolution": 0.25,
+            "geospatial_lon_units": "degree_east",
+            "geospatial_vertical_max": 0.0,
+            "geospatial_vertical_min": 0.0,
+            "geospatial_vertical_positive": "up",
+            "geospatial_vertical_units": "m",
+            "history": "Wed Sep 28 18:10:06 2022\n: /data/socd5/sss/development/hgu/4sqm/bin/../bin/l3smos_gen_new -l -a 2 -w /data/socd5/sss/development/hgu/4sqm/NODC_salinity/WOA13/woa13_decav_s09_04v2.nc /data/socd5/sss/development/hgu/4sqm/bin/../config/.Config.input /data/www/socd/mecb/coastwatch/miras/nc/SM_D2022270_Map_SATSSS_data_1day.nc 2",
+            "institution": "NOAA/NESDIS Center for Satellite Applications and Research (STAR)",
+            "instrument": "Microwave Imaging Radiometer with Aperture Synthesis (MIRAS)",
+            "keywords": "GCMD:EARTH SCIENCE > OCEANS > SALINITY/DENSITY, EARTH SCIENCE > CLIMATE INDICATORS > ATMOSPHERIC/OCEAN INDICATORS > SURFACE SALINITY, NOAA, GOVERNMENT AGENCIES-U.S. FEDERAL AGENCIES > DOC > NOAA, DOC/NOAA/NESDIS/STAR, EARTH OBSERVATION SATELLITES>EARTH EXPLORERS>SMOS>SOIL MOISTURE AND OCEAN SALINITY,  EARTH REMOTE SENSING INSTRUMENTS>PASSIVE REMOTE SENSING>PROFILERS/SOUNDERS>INTERFEROMETERS>MIRAS, NONE:Soil Moisture Ocean Salinity, Microwave Imaging Radiometer with Aperture Synthesis, sea surface salinity",
+            "keywords_vocabulary": "GCMD:GCMD Keywords,NONE:keywords not from a controlled vocabulary",
+            "mission": "Soil Moisture and Ocean Salinity (SMOS)",
+            "naming_authority": "gov.noaa.coastwatch",
+            "platform": "PROTEUS",
+            "product_name": "SM_D2022270_Map_SATSSS_data_1day.nc",
+            "product_version": "700",
+            "project": "STAR Sea Surface Salinity Team (NOAA/NESDIS/STAR/SSS)",
+            "publisher_email": "coastwatch.info@noaa.gov",
+            "publisher_name": "NOAA CoastWatch",
+            "publisher_type": "institution",
+            "publisher_url": "http://coastwatch.noaa.gov",
+            "references": "SMOS Level 2 and Auxiliary Data Products Specifications https://earth.esa.int/documents/10174/1854583/SMOS_L2_Aux_Data_Product_Specification",
+            "source": "European Space Agency(ESA)",
+            "time_coverage_start": "2022-09-27T00:45:51Z",
+            "time_coverage_stop": "2022-09-28T00:10:12Z",
+            "title": "Sea Surface Salinity - Near Real Time - Miras SMOS Daily Composite"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "altitude/.zarray": {
+            "chunks": [
+                1
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1
+            ],
+            "zarr_format": 2
+        },
+        "altitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "altitude"
+            ],
+            "_CoordinateAxisType": "Height",
+            "_CoordinateZisPositive": "up",
+            "actual_range": [
+                0.0,
+                0.0
+            ],
+            "axis": "Z",
+            "coverage_content_type": "coordinate",
+            "ioos_category": "Location",
+            "long_name": "Altitude",
+            "positive": "up",
+            "standard_name": "altitude",
+            "units": "m"
+        },
+        "coord_ref/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<i4",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "coord_ref/.zattrs": {
+            "_ARRAY_DIMENSIONS": [],
+            "grid_mapping_name": "latitude_longitude",
+            "inverse_flattening": 298.2572326660156,
+            "longitude_of_prime_meridian": 0.0,
+            "semi_major_axis": 6378137.0
+        },
+        "l2_lat/.zarray": {
+            "chunks": [
+                1,
+                1,
+                180,
+                720
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1,
+                1,
+                720,
+                1440
+            ],
+            "zarr_format": 2
+        },
+        "l2_lat/.zattrs": {
+            "C_format": "%.4g",
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "altitude",
+                "latitude",
+                "longitude"
+            ],
+            "add_offset": 0.0,
+            "long_name": "Latitude from L2 files",
+            "scale_factor": 1.0,
+            "standard_name": "latitude",
+            "units": "degree_north"
+        },
+        "l2_lon/.zarray": {
+            "chunks": [
+                1,
+                1,
+                180,
+                720
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1,
+                1,
+                720,
+                1440
+            ],
+            "zarr_format": 2
+        },
+        "l2_lon/.zattrs": {
+            "C_format": "%.4g",
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "altitude",
+                "latitude",
+                "longitude"
+            ],
+            "add_offset": 0.0,
+            "long_name": "Longitude from L2 files",
+            "scale_factor": 1.0,
+            "standard_name": "longitude",
+            "units": "degree_north"
+        },
+        "l2_time/.zarray": {
+            "chunks": [
+                1,
+                1,
+                180,
+                360
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": -999.0,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1,
+                1,
+                720,
+                1440
+            ],
+            "zarr_format": 2
+        },
+        "l2_time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "altitude",
+                "latitude",
+                "longitude"
+            ],
+            "calendar": "proleptic_gregorian",
+            "comment": "Time values are the middle of L2 files time coverage (start_time+end_time)/2",
+            "long_name": "Time from L2 files",
+            "standard_name": "time",
+            "units": "seconds since 1970-01-01T00:00:00+00:00"
+        },
+        "latitude/.zarray": {
+            "chunks": [
+                720
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                720
+            ],
+            "zarr_format": 2
+        },
+        "latitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude"
+            ],
+            "_CoordinateAxisType": "Lat",
+            "actual_range": [
+                -89.875,
+                89.875
+            ],
+            "axis": "Y",
+            "comment": "Latitude values are the centers of the grid cells",
+            "coverage_content_type": "coordinate",
+            "ioos_category": "Location",
+            "long_name": "Latitude",
+            "standard_name": "latitude",
+            "units": "degree_north",
+            "valid_max": 90.0,
+            "valid_min": -90.0
+        },
+        "longitude/.zarray": {
+            "chunks": [
+                1440
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1440
+            ],
+            "zarr_format": 2
+        },
+        "longitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "longitude"
+            ],
+            "_CoordinateAxisType": "Lon",
+            "actual_range": [
+                -179.875,
+                179.875
+            ],
+            "axis": "X",
+            "comment": "Longitude values are the centers of the grid cells",
+            "coverage_content_type": "coordinate",
+            "ioos_category": "Location",
+            "long_name": "Longitude",
+            "standard_name": "longitude",
+            "units": "degree_east",
+            "valid_max": 180.0,
+            "valid_min": -180.0
+        },
+        "sss/.zarray": {
+            "chunks": [
+                1,
+                1,
+                180,
+                720
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1,
+                1,
+                720,
+                1440
+            ],
+            "zarr_format": 2
+        },
+        "sss/.zattrs": {
+            "C_format": "%.4g",
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "altitude",
+                "latitude",
+                "longitude"
+            ],
+            "add_offset": 0.0,
+            "cell_methods": "time: point",
+            "coverage_content_type": "physicalMeasurement",
+            "grid_mapping": "coord_ref",
+            "ioos_category": "Salinity",
+            "long_name": "Sea Surface Salinity",
+            "scale_factor": 1.0,
+            "standard_name": "sea_surface_salinity",
+            "units": "1e-3",
+            "valid_max": 40.0,
+            "valid_min": 25.0
+        },
+        "sss_dif/.zarray": {
+            "chunks": [
+                1,
+                1,
+                180,
+                720
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1,
+                1,
+                720,
+                1440
+            ],
+            "zarr_format": 2
+        },
+        "sss_dif/.zattrs": {
+            "C_format": "%.4g",
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "altitude",
+                "latitude",
+                "longitude"
+            ],
+            "add_offset": 0.0,
+            "cell_methods": "time: point",
+            "comment": "SMOS Sea Surface Salinity minus World Ocean Atlas Monthly Analyzed Sea Surface Salinity, generated for QA and validation",
+            "coverage_content_type": "qualitifyInformation",
+            "grid_mapping": "coord_ref",
+            "long_name": "SMOS Sea Surface Salinity minus World Ocean Atlas Value",
+            "scale_factor": 1.0,
+            "standard_name": "sea_surface_salinity",
+            "units": "1e-3"
+        },
+        "time/.zarray": {
+            "chunks": [
+                1
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "_CoordinateAxisType": "Time",
+            "axis": "T",
+            "bounds": "time_bnds",
+            "calendar": "gregorian",
+            "coverage_content_type": "coordinate",
+            "ioos_category": "Location",
+            "long_name": "Centered Time",
+            "standard_name": "time",
+            "time_origin": "01-JAN-1970 00:00:00",
+            "units": "seconds since 1970-01-01T00:00:00+00:00"
+        },
+        "time_bnds/.zarray": {
+            "chunks": [
+                1,
+                2
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                1,
+                2
+            ],
+            "zarr_format": 2
+        },
+        "time_bnds/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "nv"
+            ],
+            "calendar": "gregorian",
+            "units": "seconds since 1970-01-01T00:00:00+00:00"
+        }
+    },
+    "zarr_consolidated_format": 1
+}

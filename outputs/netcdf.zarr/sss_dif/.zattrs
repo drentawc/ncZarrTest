@@ -1,0 +1,18 @@
+{
+    "C_format": "%.4g",
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "altitude",
+        "latitude",
+        "longitude"
+    ],
+    "add_offset": 0.0,
+    "cell_methods": "time: point",
+    "comment": "SMOS Sea Surface Salinity minus World Ocean Atlas Monthly Analyzed Sea Surface Salinity, generated for QA and validation",
+    "coverage_content_type": "qualitifyInformation",
+    "grid_mapping": "coord_ref",
+    "long_name": "SMOS Sea Surface Salinity minus World Ocean Atlas Value",
+    "scale_factor": 1.0,
+    "standard_name": "sea_surface_salinity",
+    "units": "1e-3"
+}

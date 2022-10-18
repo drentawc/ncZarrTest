@@ -1,0 +1,10 @@
+{
+    "lat/0": {
+        "offset": 10658014,
+        "size": 8640
+    },
+    "source": {
+        "array_name": "/lat",
+        "uri": "/Users/will/Documents/GitHub/ncZarrTest/inputs/V2022003_a1_WW00_chlora.nc"
+    }
+}

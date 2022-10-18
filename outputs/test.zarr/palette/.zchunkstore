@@ -1,0 +1,10 @@
+{
+    "palette/0.0": {
+        "offset": 10694221,
+        "size": 768
+    },
+    "source": {
+        "array_name": "/palette",
+        "uri": "/Users/will/Documents/GitHub/ncZarrTest/inputs/V2022003_a1_WW00_chlora.nc"
+    }
+}

@@ -1,0 +1,1 @@
+{"standard_name": "height", "long_name": "Altitude", "_CoordinateAxisType": "Height", "axis": "Z", "positive": "up", "units": "m", "_ARRAY_DIMENSIONS": ["altitude"], "_NCZARR_ATTR": {"types": {"standard_name": "<U1", "long_name": "<U1", "_CoordinateAxisType": "<U1", "axis": "<U1", "positive": "<U1", "units": "<U1"}}}

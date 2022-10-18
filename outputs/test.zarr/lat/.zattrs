@@ -1,0 +1,15 @@
+{
+    "NAME": "lat",
+    "_ARRAY_DIMENSIONS": [
+        "lat"
+    ],
+    "_CoordinateAxisType": "Lat",
+    "_Netcdf4Dimid": 0,
+    "axis": "Y",
+    "ioos_category": "Location",
+    "long_name": "Latitude",
+    "standard_name": "latitude",
+    "units": "degree_north",
+    "valid_max": 90.0,
+    "valid_min": -90.0
+}

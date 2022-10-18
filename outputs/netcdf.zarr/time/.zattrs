@@ -1,0 +1,15 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time"
+    ],
+    "_CoordinateAxisType": "Time",
+    "axis": "T",
+    "bounds": "time_bnds",
+    "calendar": "gregorian",
+    "coverage_content_type": "coordinate",
+    "ioos_category": "Location",
+    "long_name": "Centered Time",
+    "standard_name": "time",
+    "time_origin": "01-JAN-1970 00:00:00",
+    "units": "seconds since 1970-01-01T00:00:00+00:00"
+}

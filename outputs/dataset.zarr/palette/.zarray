@@ -1,0 +1,1 @@
+{"zarr_format": 2, "shape": [3,256], "dtype": "<u1", "chunks": [3,256], "fill_value": 255, "order": "C", "compressor": null, "filters": null, "_NCZARR_ARRAY": {"dimrefs": ["/rgb","/eightbitcolor"], "storage": "chunked"}}

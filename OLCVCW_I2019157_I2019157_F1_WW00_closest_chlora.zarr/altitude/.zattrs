@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "altitude"
-    ],
-    "positive": "up",
-    "standard_name": "height",
-    "units": "m"
-}

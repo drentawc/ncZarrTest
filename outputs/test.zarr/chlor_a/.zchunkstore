@@ -1,0 +1,42 @@
+{
+    "chlor_a/0.0.0.0": {
+        "offset": 29767,
+        "size": 2053928
+    },
+    "chlor_a/0.0.0.1": {
+        "offset": 2083695,
+        "size": 1254777
+    },
+    "chlor_a/0.0.0.2": {
+        "offset": 3340734,
+        "size": 226234
+    },
+    "chlor_a/0.0.1.0": {
+        "offset": 3566968,
+        "size": 3485562
+    },
+    "chlor_a/0.0.1.1": {
+        "offset": 7052530,
+        "size": 3210048
+    },
+    "chlor_a/0.0.1.2": {
+        "offset": 10262578,
+        "size": 366772
+    },
+    "chlor_a/0.0.2.0": {
+        "offset": 10629350,
+        "size": 8344
+    },
+    "chlor_a/0.0.2.1": {
+        "offset": 10637694,
+        "size": 8344
+    },
+    "chlor_a/0.0.2.2": {
+        "offset": 10646038,
+        "size": 8344
+    },
+    "source": {
+        "array_name": "/chlor_a",
+        "uri": "/Users/will/Documents/GitHub/ncZarrTest/inputs/V2022003_a1_WW00_chlora.nc"
+    }
+}

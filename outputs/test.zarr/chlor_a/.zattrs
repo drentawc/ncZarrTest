@@ -1,0 +1,24 @@
+{
+    "C_format": "%.4g",
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "altitude",
+        "lat",
+        "lon"
+    ],
+    "_FillValue": -999.0,
+    "_Netcdf4Dimid": 4,
+    "cell_methods": "time:mean",
+    "coverage_content_type": "physicalMeasurement",
+    "display_max": 20.0,
+    "display_min": 0.009999999776482582,
+    "display_scale": "log",
+    "grid_mapping": "coord_ref",
+    "ioos_category": "Ocean Color",
+    "long_name": "Chlorophyll Concentration, DINEOF Gap-Filled",
+    "reference": "O\\'Reilly J. E. et al. (1998), Ocean color chlorophyll algorithms for SeaWiFS, J. Geophys. Res., 103(C11), 2493724953",
+    "standard_name": "mass_concentration_of_chlorophyll_a_in_sea_water",
+    "units": "mg m^-3",
+    "valid_max": 100.0,
+    "valid_min": 0.0010000000474974513
+}

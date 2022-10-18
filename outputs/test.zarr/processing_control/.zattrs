@@ -1,0 +1,6 @@
+{
+    "l2_flag_names": "ATMFAIL,LAND,HIGLINT,HILT,HISATZEN,CLOUD,HISOLZEN,CHLFAIL,NAVWARN,CLDSHDSTL,ALGICE,SEAICE,NAVFAIL,FILTER",
+    "software_name": "l3mapgen",
+    "software_version": "1.0.1-r12992",
+    "source": "V2022003_oci_L3_nrt.nc"
+}

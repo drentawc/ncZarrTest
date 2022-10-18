@@ -1,0 +1,19 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "latitude"
+    ],
+    "_CoordinateAxisType": "Lat",
+    "actual_range": [
+        -89.875,
+        89.875
+    ],
+    "axis": "Y",
+    "comment": "Latitude values are the centers of the grid cells",
+    "coverage_content_type": "coordinate",
+    "ioos_category": "Location",
+    "long_name": "Latitude",
+    "standard_name": "latitude",
+    "units": "degree_north",
+    "valid_max": 90.0,
+    "valid_min": -90.0
+}

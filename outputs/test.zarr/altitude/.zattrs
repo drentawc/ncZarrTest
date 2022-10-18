@@ -1,0 +1,13 @@
+{
+    "NAME": "altitude",
+    "_ARRAY_DIMENSIONS": [
+        "altitude"
+    ],
+    "_CoordinateAxisType": "Height",
+    "_Netcdf4Dimid": 5,
+    "axis": "Z",
+    "long_name": "Altitude",
+    "positive": "up",
+    "standard_name": "height",
+    "units": "m"
+}

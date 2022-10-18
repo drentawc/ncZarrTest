@@ -1,0 +1,20 @@
+{
+    "C_format": "%.4g",
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "altitude",
+        "latitude",
+        "longitude"
+    ],
+    "add_offset": 0.0,
+    "cell_methods": "time: point",
+    "coverage_content_type": "physicalMeasurement",
+    "grid_mapping": "coord_ref",
+    "ioos_category": "Salinity",
+    "long_name": "Sea Surface Salinity",
+    "scale_factor": 1.0,
+    "standard_name": "sea_surface_salinity",
+    "units": "1e-3",
+    "valid_max": 40.0,
+    "valid_min": 25.0
+}

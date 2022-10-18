@@ -1,0 +1,1 @@
+{"zarr_format": 2, "_NCZARR_SUPERBLOCK": {"version": "2.0.0"}, "_NCZARR_GROUP": {"dims": {"lat": 2160, "lon": 4320, "rgb": 3, "eightbitcolor": 256, "time": 1, "altitude": 1}, "vars": ["coord_ref","time","altitude","chlor_a","lat","lon","palette"], "groups": ["processing_control"]}}
